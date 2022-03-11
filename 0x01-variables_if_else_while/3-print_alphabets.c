@@ -9,7 +9,7 @@ int main(void)
 char ltr, L;
 
 ltr = 'a';
-L = 'A'
+L = 'A';
 while (ltr <= 'z')
 {
 putchar(ltr);

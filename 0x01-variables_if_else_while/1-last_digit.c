@@ -5,9 +5,8 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Generates a random number, gets the last digit, 
- * checks if it is greater than 5, is 0 and is less than 6 and not 0
- * 
+ * main - Generates a random number and compares.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

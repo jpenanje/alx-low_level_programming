@@ -9,10 +9,9 @@ int main(void)
 char ltr;
 
 ltr = 'a';
-while (ltr < 'z')
+while (ltr <= 'z')
 {
 putchar(ltr);
-putchar(' ');
 ltr++;
 }
 

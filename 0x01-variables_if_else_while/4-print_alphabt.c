@@ -8,8 +8,7 @@ int main(void)
 {
         char ltr;
         
-	ltr = 'a';
-	for (ltr; ltr <= 'z'; ltr++)
+	for (ltr = 'a'; ltr <= 'z'; ltr++)
 	{
 	  if (ltr == 'e' || ltr == 'q')
 	  {

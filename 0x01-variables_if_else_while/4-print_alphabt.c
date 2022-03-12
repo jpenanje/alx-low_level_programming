@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-char ltr;  
+        char ltr;  
   
-for (ltr = 'a'; ltr <= 'z'; ltr++)
-{
-if (ltr == 'e' || ltr == 'q')
-{
-continue;
-}
-putchar(ltr);
-}
-putchar('\n');
-return (0);
+        for (ltr = 'a'; ltr <= 'z'; ltr++)
+        {
+                if (ltr == 'e' || ltr == 'q')
+                {
+                        continue;
+                }
+                putchar(ltr);
+        }
+        putchar('\n');
+        return (0);
 }

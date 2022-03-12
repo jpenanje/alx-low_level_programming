@@ -5,9 +5,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-char ltr;  
-for (ltr = 'a'; ltr <= 'z'; ltr++)
+{ 
+for (char ltr = 'a'; ltr <= 'z'; ltr++)
 {
 if (ltr == 'e' || ltr == 'q')
 {

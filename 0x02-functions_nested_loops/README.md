@@ -7,3 +7,4 @@ Task-4: Check if a character is alphabetic or not and returns a value
 Task-5: Prints the sign of a number
 Task-6: Computes the absolute value of an int
 Task-7: Printing last digit of a number
+Task-8: Printing every minute of the day

@@ -7,11 +7,10 @@
 
 void print_alphabet(void)
 {
-char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-int i; 
-for (i = 0; i < 26; i++)
+char l = 'a';
+for (l = 'a'; l <= 'z'; l++)
 {
-_putchar(alpha[i]);
+_putchar(l);
 }
 _putchar('\n');
 }

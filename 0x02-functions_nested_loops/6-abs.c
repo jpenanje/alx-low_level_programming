@@ -10,6 +10,6 @@
 
 int _abs(int n)
 {
-int a = abs(n);  
+int a = abs(n);
 return (a);
 }

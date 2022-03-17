@@ -25,6 +25,10 @@ _putchar('\n');
 if (n == 1)
 {
 _putchar('\\');
-}
 _putchar('\n');
+}
+if (n < 1)
+{
+_putchar('\n');
+}
 }

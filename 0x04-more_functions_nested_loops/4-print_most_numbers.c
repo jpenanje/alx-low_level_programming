@@ -18,7 +18,7 @@ continue;
 }
 else
 {
-_putchar(0 + 48);
+_putchar(i + 48);
 }
 }
 _putchar('\n');

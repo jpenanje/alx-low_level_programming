@@ -8,3 +8,4 @@ Task-5: Function that prints 10 times, numbers 0 - 14
 Task-6: Function that prints a line made up of "_"
 Task-7: Function that prints a diagonal line made up of "\"
 Task-8: Function that prints a square
+Task-9: Fizz-Buzz program

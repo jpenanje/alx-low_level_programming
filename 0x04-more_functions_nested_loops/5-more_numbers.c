@@ -18,5 +18,4 @@ _putchar(j + 48);
 }
 _putchar('\n');
 }
-_putchar('\n');
 }

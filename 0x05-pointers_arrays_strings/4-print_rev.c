@@ -17,9 +17,9 @@ while (*s != '\0')
 l++;
 s++;
 }
-
-for (l--; l >= 0; l--)
+l -= 1;
+for (; l >= 0; l--)
 {
-_putchar(*(s + l));
+_putchar(s[l]);
 }
 }

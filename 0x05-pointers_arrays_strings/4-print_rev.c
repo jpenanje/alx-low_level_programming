@@ -18,9 +18,8 @@ l++;
 s++;
 }
 
-while (l >= 0)
+for (l--; l >= 0; l--)
 {
 _putchar(s[l]);
-l--;
 }
 }

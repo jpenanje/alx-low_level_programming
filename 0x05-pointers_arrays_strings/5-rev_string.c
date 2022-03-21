@@ -18,7 +18,7 @@ l++;
 }
 fs = 0;
 ls = l - 1;
-while(fs < ls)
+while (fs < ls)
 {
 tmp = s[fs];
 s[fs] = s[ls];

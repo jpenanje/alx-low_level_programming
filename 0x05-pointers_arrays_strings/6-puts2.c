@@ -14,11 +14,12 @@ int i;
 i = 0;
 while(i >= 0)
 {
-if (s[i] != '\0')
+if (str[i] != '\0')
 {
-if (s[i] % 2 == 0)
+if (str[i] % 2 == 0)
 {
-printf("%c", s[i++]);
+printf("%c", str[i++]);
+}
 }
 else
 {

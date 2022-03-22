@@ -23,5 +23,6 @@ else
 {
 printf("%d", a[i]);
 }
+i++;
 }
 }

@@ -27,7 +27,7 @@ n++;
 }
 else
 {
-n = (l - 1) / 2;
+n = (l - 2) / 2;
 while (str[n] != '\0')
 {
 _putchar(str[n]);

@@ -8,3 +8,4 @@ Task-5: Function to reverse a string
 Task-6: Function to print characters
 Task-7: Function to print half of a string
 Task-8: Function to print array elements
+Task-9: Function to copy a string to a destination

@@ -9,22 +9,15 @@
 
 void puts2(char *str)
 {
-int i;
-
-i = 0;
-while(i >= 0)
+int l;
+  
+l = 0;
+while (s[l] != '\0')
 {
-if (str[i] != '\0')
+if (l % 2 == 0)
 {
-if (str[i] % 2 == 0)
-{
-printf("%c", str[i++]);
+_putchar(s[l]);
 }
-}
-else
-{
-break;
-}
-i++;
+l++;
 }
 }

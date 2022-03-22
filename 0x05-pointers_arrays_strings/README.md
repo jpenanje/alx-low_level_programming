@@ -10,3 +10,4 @@ Task-7: Function to print half of a string
 Task-8: Function to print array elements
 Task-9: Function to copy a string to a destination
 Task-100: Function to convert a string to an integer
+Task-101: Random valid passwords generation

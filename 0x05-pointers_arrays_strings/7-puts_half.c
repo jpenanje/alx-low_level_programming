@@ -12,25 +12,25 @@ void puts_half(char *str)
 int l, n;
 
 l = 0;
-while (s[l] != '\n')
+while (str[l] != '\n')
 {
 l++;
 }
 if (l % 2 == 0)
 {
 n = l/2;
-while (s[n] != '\n')
+while (str[n] != '\n')
 {
-_putchar(s[n]);
+_putchar(str[n]);
 n++;
 }
 }
 else
 {
 n = (l - 1)/2;
-while (s[n] != '\0')
+while (str[n] != '\0')
 {
-_putchar(s[n]);
+_putchar(str[n]);
 n++;
 }
 }

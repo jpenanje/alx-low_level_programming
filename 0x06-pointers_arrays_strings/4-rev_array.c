@@ -17,13 +17,11 @@ while (i >= 0)
 {
 if (i == 0)
 {
-_putchar(a[i]);
+printf("%d", a[i]);
 }
 else
 {
-_putchar(a[i]);
-_putchar(',');
-_putchar(' ');
+printf("%d, ", a[i]);
 }
 i--;
 }

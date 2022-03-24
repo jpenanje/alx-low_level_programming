@@ -15,15 +15,14 @@ int i;
 i = (n - 1);
 while (i >= 0)
 {
-if (i == 0)
+if (i != 0)
 {
 printf("%d", a[i]);
 }
 else
 {
-printf("%d, ", a[i]);
+printf(", ", a[i]);
 }
 i--;
 }
-printf("\n");
 }

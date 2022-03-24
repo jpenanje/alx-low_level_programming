@@ -4,20 +4,29 @@
  * leet - encoding a string
  * @s: pointer
  *
- * Return encoded string
+ * Return: encoded string
  */
 
 char *leet(char *s)
 {
-  int i;
+  int count, i;
+  int low_letters[] = {97, 101, 111, 116, 108};
+  int upp_letters[] = {65, 69, 79, 84, 76};
+  int numbers[] = {52, 51, 48, 55, 49};
 
-  i = 0;
-  while (*(s + i) != '\0')
+  count = 0;
+  while (*(s + count) != '\0')
     {
-      if (*(s + i) == 'a' || *(s + i) == 'A')
+      for (i = 0; i < 5; i++)
 	{
-	  *(s + i) = 4 + 48;
+	  if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
+	    {
+	      *(s + count) = numbers[i];
+	      break;
+	    }
 	}
-      i++;
+      count++;
     }
+
+  return (s);
 }

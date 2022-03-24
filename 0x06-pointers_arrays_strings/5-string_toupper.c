@@ -5,7 +5,7 @@
  * string_toupper - lowercase letters to uppercase
  * @s: pointer
  *
- * Return uppercase string
+ * Return: uppercase string
  */
 
 char *string_toupper(char *s)

@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
  * cap_string - capitalizes all words of a string
- * @s: input string.
+ * @s: input string
+ *
  * Return: Always 0 (Success)
  */
 

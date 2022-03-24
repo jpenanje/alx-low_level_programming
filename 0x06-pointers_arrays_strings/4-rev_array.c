@@ -16,7 +16,7 @@ i = 0;
 j = i - 1;  
 while (i < j) 
 {
-Temp = a[i];
+tmp = a[i];
 a[i] = a[j];
 a[j] = tmp;
 i++;             

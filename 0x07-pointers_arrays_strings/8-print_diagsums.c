@@ -24,4 +24,5 @@ sum += a[i][j];
 }
 }
 }
+printf("%d", sum);
 }

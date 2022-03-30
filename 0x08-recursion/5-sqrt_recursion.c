@@ -2,10 +2,10 @@
 #include <math.h>
 
 /**
- * _sqrt - _sqrt_recursion
- * @n: integer paramtr
- * @i: integer parameter
- * Return: sqrt
+ * _sqrt - square root recursion
+ * @n: number
+ * @i: root
+ * Return: square root
  */
 int _sqrt(int n, int i)
 {
@@ -32,5 +32,5 @@ return (_sqrt(n, i + 1));
 
 int _sqrt_recursion(int n)
 {
-  return (_sqrt(n, 1));
+return (_sqrt(n, 1));
 }

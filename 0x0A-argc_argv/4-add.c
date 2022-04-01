@@ -24,7 +24,6 @@ if (!isdigit(atoi(argv[i])))
 {
 printf("Error\n");
 return (1);
-break;
 }
 else
 {

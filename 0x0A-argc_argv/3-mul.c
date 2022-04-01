@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
  * main - multiplies two numbers
  * @argc: number of cmd arguments
@@ -10,6 +9,7 @@
 int main(int argc, char *argv[])
 {
 int result;
+
 if (argc < 2 || argc > 3)
 {
 printf("Error\n");

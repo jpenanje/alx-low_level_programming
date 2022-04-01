@@ -2,8 +2,8 @@
 
 /**
  * main - prints program name followed by new line
- * @argc - number of cmd arguments
- * @argv - array of cmd arguments
+ * @argc: number of cmd arguments
+ * @argv: array of cmd arguments
  * Return: Always 0 (Success)
  */
 

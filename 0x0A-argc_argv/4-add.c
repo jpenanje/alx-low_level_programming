@@ -26,7 +26,10 @@ printf("Error\n");
 return (1);
 break;
 }
+else
+{
 result += atoi(argv[i]);
+}
 }
 printf("%d\n", result);
 return (0);

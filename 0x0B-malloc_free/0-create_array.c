@@ -18,7 +18,7 @@ return (NULL);
 }
 cr = malloc(sizeof(c) * size);
 if (cr == NULL)
-}
+{
 return (NULL);
 }
 for (i = 0; i < size; i++)

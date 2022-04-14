@@ -24,7 +24,7 @@ num = va_arg(list, int);
 printf("%d", num);
 if (separator != NULL)
 {
-if (i != (n -1))
+if (i != (n - 1))
 {
 printf("%s", separator);
 }

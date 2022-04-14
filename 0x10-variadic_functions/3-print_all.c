@@ -27,7 +27,7 @@ case 'i':
 printf("%i", va_arg(ls, int));
 break;
 case 'f':
-printf("%f", va_arg(ls, double));
+printf("%f", va_arg(ls, float));
 break;
 case 's':
 str = va_arg(ls, char *);
@@ -50,5 +50,4 @@ i++;
 }
 printf("\n");
 va_end(ls);
-return;
 }

@@ -25,7 +25,9 @@ printf("%d", num);
 if (separator != NULL)
 {
 if (i != (n -1))
+{
 printf("%s", separator);
+}
 }
 }
 printf("\n");

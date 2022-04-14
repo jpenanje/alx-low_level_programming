@@ -27,7 +27,7 @@ case 'i':
 printf("%i", va_arg(ls, int));
 break;
 case 'f':
-printf("%f", va_arg(ls, float));
+printf("%f", va_arg(ls, double));
 break;
 case 's':
 str = va_arg(ls, char *);

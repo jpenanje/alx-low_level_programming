@@ -18,7 +18,6 @@ while (str[lstr])
 {
 lstr++;
 }
-
 nnode = malloc(sizeof(list_t));
 if (nnode == NULL)
 {

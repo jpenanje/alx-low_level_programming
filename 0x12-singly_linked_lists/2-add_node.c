@@ -15,11 +15,14 @@ int lstr;
   
 lstr = 0;
 while (str != '\0')
+{
 lstr++;
-  
-nnode = malloc(sizeof(list_t));
+}
+nnode = malloc(sizeof(nnode));
 if (nnode == NULL)
+{
 return (NULL);
+}
 nnode->len = lstr;
 nnode->str = strdup(str);
 nnode->next = *(head);

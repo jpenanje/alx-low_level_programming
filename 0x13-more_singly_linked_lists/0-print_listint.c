@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_listint - a function that prints all the elements of a listint_t list.
+ * print_listint - a function that prints all 
+ * the elements of a listint_t list.
  * @h: a pointer to listint structure
  * Return: the number of nodes.
  */

@@ -18,5 +18,6 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
+char _putchar(char s);
 size_t print_listint(const listint_t *h);
 #endif

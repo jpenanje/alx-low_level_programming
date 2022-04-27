@@ -14,8 +14,8 @@ nelements = 0;
 while (h != NULL)
 {
 printf("%d\n", h->n);
-nelements++;
 h = h->next;
+nelements++;
 }
 return (nelements);
 }

@@ -25,8 +25,9 @@ int create_file(const char *filename, char *text_content)
 	if (fd < 0)
 		return (-1);
 
-	for (len = 0; text_content && *(text_content + len); len++)
-		;
+	len = 0;
+	while (text_content && *(text_content + len))
+		len++;
 
 	fdwrite = write(fd, text_content, len);
 	close(fd);
